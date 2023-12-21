@@ -9,7 +9,8 @@
     "test": "npm run build && npm run typescript",
     "build": "rimraf ./dist && tsc",
     "typescript": "tsd",
-    "start": "node ./dist/src/index.js"
+    "start": "node ./dist/src/index.js",
+    "ryude-build": "node ./dist/src/index.js build"
   },
   "repository": {
     "type": "git",
