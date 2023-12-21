@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declaration": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "allowJs": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "pages/**/*.tsx",
+    ],
+    "exclude": [
+        "node_modules",
+        "types/**/*.test-d.ts",
+    ]
+}

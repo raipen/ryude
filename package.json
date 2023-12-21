@@ -1,0 +1,48 @@
+{
+  "name": "ryude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "npm run build && npm run typescript",
+    "build": "rimraf ./dist && tsc",
+    "typescript": "tsd",
+    "start": "node ./dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raipen/ryude.git"
+  },
+  "engines": {
+    "node": ">=14.16"
+  },
+  "bin": {
+    "ryude": "./dist/src/index.js"
+  },
+  "keywords": [
+    "ryude",
+    "react",
+    "blog",
+    "SSG",
+    "static site generator"
+  ],
+  "author": "Raipen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raipen/ryude/issues"
+  },
+  "homepage": "https://github.com/raipen/ryude#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "tsd": "^0.29.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}
