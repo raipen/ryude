@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "npm run build && npm run typescript",
+    "test:build": "npm run build && npm run ryude-build",
     "build": "rimraf ./dist && tsc",
     "typescript": "tsd",
     "start": "node ./dist/src/index.js",

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import build from './build';
-import devServer from './dev-server';
+import build from './build.js';
+import devServer from './dev-server.js';
 
 const args = process.argv.slice(2);
 console.log(args);
