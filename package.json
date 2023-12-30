@@ -1,7 +1,7 @@
 {
   "name": "ryude",
   "version": "1.0.0",
-  "description": "",
+  "description": "node.js framework generating a markdown blog with React",
   "main": "dist/src/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
