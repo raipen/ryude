@@ -20,9 +20,6 @@
   "engines": {
     "node": ">=14.16"
   },
-  "bin": {
-    "ryude": "./dist/src/index.js"
-  },
   "keywords": [
     "ryude",
     "react",
@@ -44,7 +41,10 @@
     "react-dom": "^18.2.0",
     "rimraf": "^5.0.5",
     "tsd": "^0.29.0",
-    "typescript": "^5.3.3",
-    "tsx": "^4.7.0"
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
